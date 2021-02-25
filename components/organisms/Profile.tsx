@@ -112,15 +112,12 @@ function Profile(data) {
                 <Contents/>
                 <SectionTitle text="Links"/>
                 <Contents>
-                    <ProfileLink text="Twitter"
-                                 logo="logo-twitter"
-                                 src="https://twitter.com/yuya_hirooka"/>
-                    <ProfileLink text="GitHub"
-                                 logo="logo-github"
-                                 src="https://github.com/samuraiball"/>
-                    <ProfileLink text="はてなブログ"
-                                 logo="pencil-outline"
-                                 src="https://yuya-hirooka.hatenablog.com/"/>
+                    <ProfileLink type="twitter" logo="logo-twitter"
+                                 src="https://twitter.com/yuya_hirooka">Twitter</ProfileLink>
+                    <ProfileLink type="github" logo="logo-github"
+                                 src="https://github.com/samuraiball">GitHub</ProfileLink>
+                    <ProfileLink type="blog" logo="pencil-outline"
+                                 src="https://yuya-hirooka.hatenablog.com/">はてなブログ</ProfileLink>
                 </Contents>
             </XSlideInContainer>
             <YSlideInAnimationContainer>
