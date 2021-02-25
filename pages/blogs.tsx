@@ -17,15 +17,13 @@ export default function Blogs(props) {
     )
 }
 
-
-export async function getStaticProps() {
-
+//todo: NetlifyでISRがサポートされたらSSGにしたい
+export async function getServerSideProps() {
     const blogs = await new WelcomePageApi().fetchBlogs();
 
     return {
         props: {
             blogs: blogs.data,
-        },
-        revalidate: 3600,
+        }
     }
 }
