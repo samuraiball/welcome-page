@@ -64,7 +64,6 @@ const SideBar = () => {
                     <AnchorWrapper>Heno</AnchorWrapper>
                 </Link>
             </TopLinkWrapper>
-
             <ChildLinkWrapper>
                 <Link href="/">
                     <AnchorWrapper>Profile</AnchorWrapper>

@@ -60,7 +60,7 @@ const BarChart = (props: Props) => {
     return (
         <Wrapper>
             {sortedData
-                .map((e , index) =>
+                .map((e, index) =>
                     <Contents key={index}>
                         <Item>{e.name}</Item>
                         <BarWrapper>

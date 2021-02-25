@@ -6,7 +6,7 @@ const Text = styled.div`
   font-size: 15px;
 `
 
-const Anker = styled.a`
+const Anchor = styled.a`
   tpointer-events: none;
   tcursor: default;
   text-decoration: none;
@@ -21,9 +21,9 @@ const Anker = styled.a`
 const Link = (props) => {
     return (
         <Text>
-            <Anker href={props.src} target="_blank">
+            <Anchor href={props.src} target="_blank">
                 -- {props.text}
-            </Anker>
+            </Anchor>
         </Text>
     )
 }

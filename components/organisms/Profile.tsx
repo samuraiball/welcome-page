@@ -96,7 +96,17 @@ function Profile(data) {
                 <Contents>
                     <p>
                         このサイトは、私がCSSやフロントエンドの勉強のために作っています。<br/>
-                        React、Typescript、styled-component等を用いて作成しています。すべて生のCSSで作っていて（styled-componentは使っていますが）、CSSフレームワークやコンポーネントフレームワークは使っていません。
+                        以下の技術スタックや設計手法を使って、作成してます。
+                    </p>
+                    <ul>
+                        <li>React</li>
+                        <li>Typescript</li>
+                        <li>Next.js</li>
+                        <li>styled-component</li>
+                        <li>Atomic Design</li>
+                    </ul>
+                    <p>
+                        すべて生のCSSで作っていて（styled-componentは使っていますが）、CSSフレームワークやコンポーネントフレームワークは使っていません。<br/>
                     </p>
                 </Contents>
                 <Contents/>

@@ -7,12 +7,12 @@ type Props = {
 
 const Avatar = (props: Props) => {
     return (
-           <Image
-               src={props.src}
-               height={150}
-               width={150}
-               alt="hehoheno"
-           />
+        <Image
+            src={props.src}
+            height={150}
+            width={150}
+            alt="hehoheno"
+        />
     )
 }
 
