@@ -29,11 +29,16 @@ const BlogInfo = (data) => {
         fetchBlogs().then();
     }, [])
 
+
+    const filterBlogs = (word: string) => {
+        dispatch({type: "filterBlogs", newWord: word, payload: []})
+    }
+
     return (
         <div className="blog-info">
             <XSlideInContainer>
                 <SectionTitle text="Posted Blogs"/>
-                <BlogSearchBox searchTerm={state.searchTerm} dispatch={dispatch}/>
+                <BlogSearchBox searchTerm={state.searchTerm} filterFunction={filterBlogs}/>
                 <BlogCount number={state.filteredBlogs.feed.length}/>
             </XSlideInContainer>
             <YSlideInAnimationContainer>

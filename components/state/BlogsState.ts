@@ -1,6 +1,4 @@
-
 export type BlogsState = {
-    //searchCondition: { searchTerm: "", tags: [] },
     searchTerm: string,
     rowBlogs: Article
     filteredBlogs: Article
