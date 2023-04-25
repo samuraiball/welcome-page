@@ -88,8 +88,9 @@ function Profile(data) {
                         名前：ヒロオカ
                     </p>
                     <p>
-                        ユーザベースのソフトウェアエンジニア<br/>
-                        Java(エコシステム含む), Linux, Vim, コンテナ技術, アジャイル開発あたりに興味があります。<br/>
+                        アマゾン ウェブ サービス ジャパンのソリューションアーキテクト。もと、ソフトウェアエンジニア<br/>
+                        クラウド、Java(エコシステム含む), Linux, Vim, コンテナ技術, アジャイル開発あたりに興味があります。<br/>
+                      　　　　
                     </p>
                 </Contents>
                 <SectionTitle text="About This Site"/>
